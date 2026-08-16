@@ -1,16 +1,82 @@
-# React + Vite
+# Taskify
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive **Todo List / Task Management Web App** built with **React, Vite, and Tailwind CSS**.
 
-Currently, two official plugins are available:
+Taskify provides a clean dashboard for creating, organizing, filtering, sorting, and managing daily tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Taskify Preview](./src/assets/taskify-preview.png)
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+- 📝 **Create Tasks** — Quickly add new tasks.
+- 📂 **Task Categories**
+  - Work
+  - Personal
+  - Study
+  - Health
+  - Finance
+- 📅 **Due Dates** — Assign due dates to tasks.
+- 🚩 **Priority Tasks** — Mark important tasks as high priority.
+- ✅ **Complete Tasks** — Mark tasks as completed or incomplete.
+- 🗑️ **Delete Tasks** — Remove tasks when they are no longer needed.
+- 🔎 **Search Tasks** — Search tasks by title or category.
+- 🔽 **Task Sorting**
+  - Priority
+  - Due Date
+  - Alphabetical
+  - Newest
+- 🎯 **Task Filters**
+  - All
+  - Today
+  - Upcoming
+  - Completed
+- 📊 **Task Statistics**
+  - Total Tasks
+  - Completed
+  - In Progress
+  - High Priority
+- 💾 **Local Storage** — Tasks persist after refreshing the browser.
+- 📱 **Responsive Design** — Works across desktop, tablet, and mobile.
+- 🌙 **Modern Dark UI** — Clean dark interface with cyan/blue gradients.
+- 📱 **Mobile Sidebar** — Slide-out navigation on smaller screens.
+- ⏰ **Dynamic Greeting** — Greeting changes according to the current time.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** — Frontend library
+- **Vite** — Development and build tool
+- **Tailwind CSS** — Styling and responsive design
+- **Lucide React** — Icons
+- **JavaScript** — Application logic
+- **LocalStorage** — Local task persistence
+
+---
+
+## 📁 Project Structure
+
+```text
+taskify/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── LeftBar.jsx
+│   │   └── RightHalf.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
